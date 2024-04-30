@@ -1,0 +1,18 @@
+.form-formatting {
+    width: 500px;
+    padding-top: 2%;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+
+    margin-top: 5%;
+}
+
+.register-form-header {
+    padding-bottom: 2%;
+}
