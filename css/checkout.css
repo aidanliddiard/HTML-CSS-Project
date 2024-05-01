@@ -65,14 +65,14 @@
 }
 
 .table-input {
-  width: 40%; /* Adjust as needed */
-  padding-left: 2%;
+  width: 40%; 
+  padding-left: 1%;
   padding-right: 2%;
 }
 
 .payment-info-header {
   padding-top: 2%;
-  padding-left: 1.8%;
+  padding-left: 1%;
   padding-bottom: 1%;
 }
 
@@ -92,10 +92,9 @@
 }
 
 .button-format{
-  padding-left: 3%;
+  padding-left: 13%;
   padding-bottom: 5%;
 }
-
 
 .form-label-wider {
   width: 260% !important;
@@ -123,3 +122,12 @@
     flex-direction: column;
   }
 }
+
+.flex-item{
+  /* flex: 1; */
+}
+
+.custom-width{
+  width: 100%;
+}
+
