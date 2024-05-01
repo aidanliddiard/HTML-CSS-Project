@@ -1,0 +1,128 @@
+.form-formatting {
+  width: 50%; 
+  padding-top: 2%;
+  padding: 3%;
+  background-color: white;
+  border-radius: 1%; 
+  box-shadow: 0px 0px 1% 0px rgba(0,0,0,0.1); 
+  margin-top: 5%;
+}
+
+.larger-label {
+  width: 75%;
+  font-size: 1.5em; 
+}
+
+.register-form-header {
+    padding-bottom: 2%;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .remember-me {
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+    padding-left: 1%;
+  }
+
+  .shopping-cart-header {
+    padding-top: 2%;
+    padding-left: 14%;
+  }
+
+  .cart-table {
+     width: 50%;
+     padding-left: 2%;
+     padding-top: 1%;
+  }
+
+  .image-formatting {
+    width: 120%;
+    height: 45%;
+    padding-right: -10%;
+  }
+
+  .table-spacing {
+    padding-left: 0%;
+  }
+
+  th.image-formatting {
+    width: 15%; /* Adjust this value to suit your needs */
+}
+
+.main-container {
+  width: 70%; /* Adjust as needed */
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-input {
+  width: 40%; 
+  padding-left: 1%;
+  padding-right: 2%;
+}
+
+.payment-info-header {
+  padding-top: 2%;
+  padding-left: 1%;
+  padding-bottom: 1%;
+}
+
+.gray-box {
+  background-color: #f0f0f0; 
+  width: 100%; 
+  /* margin-right: -25%; */
+}
+
+.cart-table {
+  /* margin-left: -33%;  */
+  width: 90%;
+}
+
+.btn-wide {
+  width: 80%;
+}
+
+.button-format{
+  padding-left: 13%;
+  padding-bottom: 5%;
+}
+
+.form-label-wider {
+  width: 260% !important;
+}
+
+.column-narrow {
+  width: 40%; /* Adjust as needed */
+  padding-right: 5% !important; 
+  padding-left: 5% !important; 
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+.flex-item{
+  /* flex: 1; */
+}
