@@ -74,11 +74,11 @@
     <h2 class="shopping-cart-header">Your Meet and Greet Appointments</h2>
       <div class="row">
         <div class="col-md-8">
-            <table class="table cart-table">
+            <table class="table cart-table checkout-table">
               <thead>
                 <tr>
                   <th scope="col">Appointments</th>
-                  <th scope="col"></th>
+                  <th scope="col" class="column-to-hide"></th>
                   <th scope="col">Name</th>
                   <th scope="col">Date</th>
                   <th scope="col">Time</th>
@@ -86,37 +86,37 @@
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row"><img src="imgs/penelope.jpg" class="mr-3 image-formatting" alt="Image of a Frenchie Dog"></th>
+                  <th class="image-formatting appointments" scope="row"><img src="imgs/Beni.jpg" class="mr-3 image-formatting" alt="Image of a White Dog"></th>
                   <th scope="col"></th>
-                  <th scope="row" class="name">Penelope</th>
+                  <th scope="row" class="name">Beni</th>
                   <td class="mr-1">May 7, 2024</td>
                   <td class="mr-1">10:00am</td>
                 </tr>
                 <tr>
-                  <th class="image-formatting appointments" scope="row"><img src="imgs/penelope.jpg" class="image-formatting" alt="Image of a Frenchie Dog"></th>
+                  <th class="image-formatting appointments" scope="row"><img src="imgs/Frank.jpg" class="image-formatting" alt="Image of a Frenchie Dog"></th>
                   <th scope="col"></th>
-                  <th scope="row" class="table-spacing">Penelope</th>
+                  <th scope="row" class="table-spacing">Frank</th>
                   <td>May 7, 2024</td>
                   <td>10:00am</td>
                 </tr>
                 <tr>
-                  <th class="image-formatting" scope="row"><img src="imgs/penelope.jpg" class="image-formatting" alt="Image of a Frenchie Dog"></th>
+                  <th class="image-formatting" scope="row"><img src="imgs/Martha.jpg" class="image-formatting" alt="Image of a Frenchie Dog"></th>
                   <th scope="col"></th>
-                  <th scope="row">Penelope</th>
+                  <th scope="row">Martha</th>
                   <td>May 7, 2024</td>
                   <td>10:00am</td>
                 </tr>
                 <tr>
-                  <th class="image-formatting" scope="row"><img src="imgs/penelope.jpg" class="image-formatting" alt="Image of a Frenchie Dog"></th>
+                  <th class="image-formatting" scope="row"><img src="imgs/Sasha.jpg" class="image-formatting" alt="Image of a Frenchie Dog"></th>
                   <th scope="col"></th>
-                  <th scope="row">Penelope</th>
+                  <th scope="row">Sasha</th>
                   <td>May 7, 2024</td>
                   <td>10:00am</td>
                 </tr>
                 <tr>
-                  <th class="image-formatting" scope="row"><img src="imgs/penelope.jpg" class="image-formatting" alt="Image of a Frenchie Dog"></th>
+                  <th class="image-formatting" scope="row"><img src="imgs/Snowflake.jpg" class="image-formatting" alt="Image of a Frenchie Dog"></th>
                   <th scope="col"></th>
-                  <th scope="row">Penelope</th>
+                  <th scope="row">Snowflake</th>
                   <td>May 7, 2024</td>
                   <td>10:00am</td>
                 </tr>
@@ -135,7 +135,7 @@
           <input type="text" class="form-control form-label-wider" id="address" placeholder="House number and street name" required>
         </div> 
         <div class="mb-3 table-input">
-          <input type="text" class="form-control form-label-wider" id="address" placeholder="Apartment, suite, unit, etc">
+          <input type="text" class="form-control form-label-wider" id="apartment-number" placeholder="Apartment, suite, unit, etc">
         </div> 
         <div class="flex-container">
           <div class="mb-3">
@@ -150,7 +150,7 @@
         <div class="flex-container">
           <div class="mb-3">
             <label for="phone-number" class="form-label">Phone Number</label>
-            <input type="number" class="form-control" id="phone-number" required>
+            <input type="tel" class="form-control" id="phone-number" required maxlength="15">
           </div> 
           <div class="mb-3">
             <label for="email-address" class="form-label">Email Address</label>
@@ -159,12 +159,12 @@
         </div>
         <div class="flex-container">
           <div class="mb-3">
-            <label for="exp" class="form-label">Credit Card Number</label>
-              <input type="text" class="form-control" id="exp" required>
+            <label for="credit-card-number" class="form-label">Credit Card Number</label>
+              <input type="text" class="form-control" id="credit-card-number" required>
           </div>
           <div class="mb-3">
-            <label for="type" class="form-label">Type</label>
-              <select class="form-control">
+            <label for="card-type" class="form-label">Card Type     </label>
+              <select class="form-control form-label" id="card-type">
                 <option selected>Select</option>
                 <option value="visa">Visa</option>
                 <option value="mastercard">Mastercard</option>
@@ -180,7 +180,7 @@
           </div>
           <div class="mb-3">
             <label for="cvv" class="form-label">CVV</label>
-            <input type="number" class="form-control custom-width" id="cvv" required maxlength="4">
+            <input type="number" class="form-control custom-width" id="cvv">
           </div>
         </div>
         <div class="button-format">
