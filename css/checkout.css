@@ -105,21 +105,27 @@
 
 @media (max-width: 767px) {
   .checkout-table th, .checkout-table td {
-    padding: 50px; 
+    padding: 5px; 
     margin: 0;
     text-align: center; 
   }
 
   .checkout-table {
-    table-layout: auto;
-    width: 150vw !important;
+    /* table-layout: auto; */
+    table-layout: fixed;
+    width: 99% !important;
+    /* width: 150vw !important; */
     font-size: 14px;
   }
 
-  .checkout-table tr {
+  .checkout-table td, .checkout-table th {
+    word-wrap: break-word;
+  }
+
+  /* .checkout-table tr {
     display: flex;
     flex-direction: row;
-  }
+  } */
 
   .button-format{
     padding-left: 13%;
