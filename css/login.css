@@ -1,4 +1,4 @@
-.form-formatting {
+/* .form-formatting {
     width: 500px;
     padding-top: 2%;
     padding: 30px;
@@ -11,7 +11,7 @@
     top: 50%;
 
     margin-top: 5%;
-}
+} */
 
 .register-form-header {
     padding-bottom: 2%;
@@ -33,3 +33,39 @@
     padding-top: 2%;
     padding-left: 1%;
   }
+
+  /* For Mobile Devices */
+  @media (max-width: 767px) {
+    .form-formatting {
+        /* width: 500px; */
+        padding-top: 2%;
+        padding: 30px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+      
+        margin: 0 auto;
+        position: relative;
+        top: 50%;
+        transform: translateY(2%);
+        margin-top: 5%;
+    }
+}
+
+/* For desktop devices */
+@media (min-width: 768px) {
+    .form-formatting {
+        width: 500px;
+        padding-top: 2%;
+        padding: 30px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+      
+        margin: 0 auto;
+        position: relative;
+        top: 50%;
+    
+        margin-top: 5%;
+    }
+}
