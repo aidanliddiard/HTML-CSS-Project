@@ -34,11 +34,6 @@
     margin: 0 !important;
   }
 
-  /* .shopping-cart-header {
-    padding-top: 2%;
-    padding-left: 14%;
-  } */
-
   .cart-table {
      width: 50rem;
      padding-left: 2%;
@@ -88,10 +83,6 @@
   width: 80%;
 }
 
-/* #card-type {
-  position: static !important;
-} */
-
 @media (max-width: 767px) {
   .checkout-table th, .checkout-table td {
     padding: 5px; 
@@ -110,11 +101,6 @@
   .checkout-table td, .checkout-table th {
     word-wrap: break-word;
   }
-
-  /* .checkout-table tr {
-    display: flex;
-    flex-direction: row;
-  } */
 
   .button-format{
     padding-left: 13%;
@@ -139,7 +125,7 @@
   
   .flex-container{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
   }
 
   .image-formatting {
@@ -165,10 +151,6 @@
     top: 50%;
   
     margin-top: 5%;
-  }
-
-  #credit-card-number, #card-type {
-    width: 50%; 
   }
 
 }
@@ -197,7 +179,9 @@
     
     .flex-container{
       display: flex;
+      gap: 90px !important; 
       justify-content: flex-start;
+      padding-left: 7px;
     }
 
     .image-formatting {
@@ -225,9 +209,13 @@
       margin-top: 5%;
     }
 
-    #credit-card-number, #card-type {
-      width: 100% !important; 
-      box-sizing: border-box !important;
+    #state, #zipcode, #exp, #cvv, #phone-number, #email-address {
+      width: 125%; 
     }
+
+    .input-field{
+      padding-left: 10px;
+    }
+
 }
 
