@@ -19,7 +19,7 @@
 
 .actions {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
   }
 
@@ -60,7 +60,7 @@
 
 .flex-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .table-input {
@@ -79,21 +79,6 @@
   padding-right: 15px;
 }
 
-.gray-box {
-  width: 500px;
-  padding-top: 2%;
-  padding: 30px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
-
-  margin: 0 auto;
-  position: relative;
-  top: 50%;
-
-  margin-top: 5%;
-}
-
 .cart-table {
   margin-right: 10px; 
   width: 90%;
@@ -102,6 +87,10 @@
 .btn-wide {
   width: 80%;
 }
+
+/* #card-type {
+  position: static !important;
+} */
 
 @media (max-width: 767px) {
   .checkout-table th, .checkout-table td {
@@ -145,12 +134,12 @@
   .input-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
   
   .flex-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
 
   .image-formatting {
@@ -164,10 +153,18 @@
   }
 
   .gray-box {
-    background-color: #f0f0f0; 
-    width: 100%; 
-    padding-top: 5%;
-    padding-left: 5%;
+    width: 500px;
+    padding-top: 2%;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+  
+    margin-top: 5%;
   }
 
   #credit-card-number, #card-type {
@@ -195,12 +192,12 @@
     .input-container {
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: flex-start;
     }
     
     .flex-container{
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-start;
     }
 
     .image-formatting {
@@ -214,8 +211,18 @@
     }
 
     .gray-box {
-      background-color: #f0f0f0; 
-      width: 100%; 
+      width: 500px;
+      padding-top: 2%;
+      padding: 30px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    
+      margin: 0 auto;
+      position: relative;
+      top: 50%;
+    
+      margin-top: 5%;
     }
 
     #credit-card-number, #card-type {
@@ -223,3 +230,4 @@
       box-sizing: border-box !important;
     }
 }
+
