@@ -14,13 +14,16 @@ On this sight you can easily browse our current dogs and read a short descriptio
 ![Login Page](/imgs/pages/login.png)
 ![Register Page](/imgs/pages/register.png)
 ![Our Dogs Page](/imgs/pages/our-dogs.png)
+![Appointments Page](/imgs/pages/appointments.png)
+![Mobile Home Page](/imgs/pages/mobile-home.png)
 
-
+## Implementation:
+This project was built with HTML and CSS. We used Bootstrap for our CSS framework. Specifically we used two different Navbars -- one for mobile and one for laptop/larger screen sizes, as well as form elements including input, select, and submit buttons. 
 
 ### Resources Used:
 - HTML/CSS
-- Bootstrap
+- [Bootstrap](https://getbootstrap.com/)
 - https://www.akc.org/expert-advice/lifestyle/10-science-based-benefits-dog/
 - https://www.forbes.com/advisor/pet-insurance/pet-adoption-statistics/#:~:text=Animals%20in%20Shelters&text=The%20number%20of%20animals%20entering,adult%20pets%2C%20followed%20by%20youth.
 - https://cuddleclones.com/blogs/all/top-10-dog-breeds-most-commonly-found-in-shelters
-- Unsplash images
+- [Unsplash](https://unsplash.com/) for images

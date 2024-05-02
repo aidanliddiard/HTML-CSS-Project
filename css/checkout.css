@@ -133,11 +133,6 @@
     height: 45%;
   }
 
-  .shopping-cart-header {
-    padding-top: 2%;
-    padding-left: 9%;
-  }
-
   .gray-box {
     width: 500px;
     padding-top: 2%;
@@ -187,11 +182,6 @@
     .image-formatting {
       width: 120%;
       height: 45%;
-    }
-
-    .shopping-cart-header {
-      padding-top: 2%;
-      padding-left: 16.5%;
     }
 
     .gray-box {
