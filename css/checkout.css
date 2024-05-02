@@ -30,20 +30,10 @@
     padding-left: 1%;
   }
 
-  .shopping-cart-header {
-    padding-top: 2%;
-    padding-left: 14%;
-  }
-
   .cart-table {
      width: 50%;
      padding-left: 2%;
      padding-top: 1%;
-  }
-
-  .image-formatting {
-    width: 120%;
-    height: 45%;
   }
 
   .table-spacing {
@@ -75,11 +65,6 @@
   padding-bottom: 1%;
 }
 
-.gray-box {
-  background-color: #f0f0f0; 
-  width: 100%; 
-}
-
 .cart-table {
   width: 90%;
 }
@@ -88,7 +73,7 @@
   width: 80%;
 }
 
-.button-format{
+/* .button-format{
   padding-left: 13%;
   padding-bottom: 5%;
 }
@@ -112,10 +97,116 @@
 .flex-container{
   display: flex;
   justify-content: space-between;
-}
+} */
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .flex-container {
     flex-direction: column;
   }
+} */
+
+@media (max-width: 767px) {
+  .checkout-table th, .checkout-table td {
+    padding: 50px; 
+    margin: 0;
+    text-align: center; 
+  }
+
+  .checkout-table {
+    table-layout: auto;
+    width: 150vw !important;
+    font-size: 14px;
+  }
+
+  .checkout-table tr {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .button-format{
+    padding-left: 13%;
+    padding-bottom: 5%;
+  }
+  
+  .form-label-wider {
+    width: 260% !important;
+  }
+  
+  .column-narrow {
+    width: 40%; 
+    padding-right: 5% !important; 
+    padding-left: 5% !important; 
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .flex-container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .image-formatting {
+    width: 150%;
+    height: 45%;
+  }
+
+  .shopping-cart-header {
+    padding-top: 2%;
+    padding-left: 9%;
+  }
+
+  .gray-box {
+    background-color: #f0f0f0; 
+    width: 100%; 
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+
+}
+
+@media (min-width: 768px) {
+    .button-format{
+      padding-left: 13%;
+      padding-bottom: 5%;
+    }
+    
+    .form-label-wider {
+      width: 260% !important;
+    }
+    
+    .column-narrow {
+      width: 40%; 
+      padding-right: 5% !important; 
+      padding-left: 5% !important; 
+    }
+    
+    .input-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    
+    .flex-container{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .image-formatting {
+      width: 120%;
+      height: 45%;
+    }
+
+    .shopping-cart-header {
+      padding-top: 2%;
+      padding-left: 14%;
+    }
+
+    .gray-box {
+      background-color: #f0f0f0; 
+      width: 100%; 
+    }
 }
